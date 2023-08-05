@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1f1f1;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .card {
+            width: 400px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+
+        .text-box input {
+            width: 100%;
+            padding: 10px 0;
+            margin: 10px;
+            font-size: 16px;
+            color: #333;
+            border: none;
+            border-bottom: 2px solid #88888a;
+            outline: none;
+            background: transparent;
+            transition: border-color 0.2s;
+        }
+
+        .login-box {
+            padding: 40px;
+        }
+
+        .form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        h2 {
+            text-align: center;
+        }
+        .button button{
+            width: 100%;
+            padding: 10px 0;
+            margin: 5px;
+            font-size: 20px;
+            border: none;
+            border-radius: 5px;
+            color: #fff;
+            background-color: #4fa5fb;
+              
+        }
+        button:hover{
+            background-color: #ace3f6f1;
+        }
+    </style>
+    <title>ans1</title>
+</head>
+
+<body>
+    <div class="card">
+        <div class="login-box">
+            <h2>Login</h2>
+            <form class="form" action="" method="get">
+                <div class="text-box">
+                    <input type="text" name="username" placeholder="username">
+                </div>
+                <div class="text-box">
+                    <input type="text" name="username" placeholder="password">
+                </div>
+                <div class="button">
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
